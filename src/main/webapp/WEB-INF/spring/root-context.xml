@@ -18,6 +18,7 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>mum.edu.domain.Course</value>
+				<value>mum.edu.domain.Block</value>
 			</list>
 		</property>
 	</bean>
