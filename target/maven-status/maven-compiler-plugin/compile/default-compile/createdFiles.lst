@@ -1,0 +1,4 @@
+mum\edu\domain\Block.class
+mum\edu\controller\HomeController.class
+mum\edu\domain\Course.class
+mum\edu\dao\CourseDAO.class
