@@ -11,8 +11,8 @@ import javax.persistence.Table;
  @Table(name = "`Users`")
 public class User  {
 	
-	@Id @GeneratedValue
-    private int id;
+	@Id 
+    private String id;
     private String username;
     private String firstName;
     private String lastName;
@@ -23,9 +23,9 @@ public class User  {
 		
 	}
 
-	public User( String username, String firstName, String lastName, String password, boolean enabled) {
+	public User( String id,String username, String firstName, String lastName, String password, boolean enabled) {
 		
-		
+		this.id=id;
 		this.username = username;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -33,11 +33,11 @@ public class User  {
 		this.enabled = enabled;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

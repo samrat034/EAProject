@@ -6,6 +6,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional(propagation = Propagation.MANDATORY)
-public interface CourseDao extends JpaRepository<Course, Integer> {
+public interface CourseDAO extends JpaRepository<Course, Integer> {
     
 }
