@@ -1,4 +1,4 @@
-package mum.edu.ca;
+package mum.edu.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
