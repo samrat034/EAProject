@@ -18,6 +18,11 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>mum.edu.domain.Course</value>
+				<value>mum.edu.domain.Block</value>
+				<value>mum.edu.domain.User</value>
+				<value>mum.edu.domain.Registration</value>
+				<value>mum.edu.domain.Registration_PreferedCourses</value>
+				<value>mum.edu.domain.PendingCourseSwitch</value>
 			</list>
 		</property>
 	</bean>
