@@ -1,6 +1,5 @@
 package mum.edu.domain;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -13,7 +12,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Block implements Serializable {
+public class Block {
 	@Id
     @GeneratedValue
     private int id;
@@ -33,9 +32,9 @@ public class Block implements Serializable {
 
 
 
-	public Block(int id, List<Course> courses, Date startDate) {
-		super();
-		this.id = id;
+	public Block( List<Course> courses, Date startDate) {
+		
+		
 		this.courses = courses;
 		this.startDate = startDate;
 	}

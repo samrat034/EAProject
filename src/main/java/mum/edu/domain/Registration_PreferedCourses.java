@@ -19,7 +19,7 @@ public class Registration_PreferedCourses {
 		
 	}
 	public Registration_PreferedCourses(Registration registration, Course course) {
-		super();
+		
 		this.registration = registration;
 		this.course = course;
 	}

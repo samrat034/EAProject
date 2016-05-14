@@ -1,6 +1,6 @@
 package mum.edu.domain;
 
-import java.io.Serializable;
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
  @Table(name = "`Users`")
-public class User implements Serializable {
+public class User  {
 	
 	@Id @GeneratedValue
     private int id;

@@ -1,6 +1,5 @@
 package mum.edu.domain;
 
-import java.io.Serializable;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -9,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Course implements Serializable {
+public class Course {
 	@Id @GeneratedValue
 	private int id;
     private String code;

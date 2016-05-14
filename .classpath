@@ -25,5 +25,14 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-data-jpa-1.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-aop-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-beans-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-context-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-core-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-core-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-data-commons-core-1.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-expression-3.2.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/zelalem/Downloads/spring-jms-3.0.4.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
