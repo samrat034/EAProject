@@ -15,10 +15,9 @@ import mum.edu.dao.RegistrationDao;
 import mum.edu.dao.Registration_PreferedCoursesDAO;
 import mum.edu.dao.UserDAO;
 import mum.edu.domain.Course;
-import mum.edu.domain.PendingCourseSwitch;
 import mum.edu.domain.Registration;
-import mum.edu.domain.Registration_PreferedCourses;
-import mum.edu.domain.User;
+
+
 
 @Transactional(propagation = Propagation.REQUIRES_NEW)
 
