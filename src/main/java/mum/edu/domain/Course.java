@@ -82,6 +82,16 @@ public class Course {
 	public void setClassCapacity(int classCapacity) {
 		this.classCapacity = classCapacity;
 	}
+
+
+    public void removePrerequisite(Course prerequisite) {
+        prerequisites.remove(prerequisite);
+    }
+
+    public void addPrerequisite(Course course) {
+        prerequisites.add(course);
+    }
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;

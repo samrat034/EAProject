@@ -40,6 +40,10 @@ public class Block {
 	}
 
 
+    public void addCourse(Course course) {
+        courses.add(course);
+    }
+
 
 	public int getId() {
 		return id;
